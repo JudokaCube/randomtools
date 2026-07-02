@@ -1,0 +1,9 @@
+# core, required for every tool
+Pillow
+
+# only needed for the qr tool
+qrcode[pil]
+
+# optional, improves clipboard support on every platform
+# (without it, passgen/base64/morse fall back to pbcopy/clip/wl-copy/xclip/xsel)
+pyperclip
