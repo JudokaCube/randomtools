@@ -5,7 +5,6 @@
 **random tools no one asked for**
 
 ![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00ffff)
-![Pillow](https://img.shields.io/badge/Pillow-000000?style=for-the-badge&logo=python&logoColor=00ffff)
 
 </div>
 <br>
