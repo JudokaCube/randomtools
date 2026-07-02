@@ -10,7 +10,7 @@
 </div>
 <br>
 
-I kept writing little one-off scripts for stuff — converting an image to ASCII art for a README, generating a passphrase, checking what a base64 blob actually said — and got tired of digging through old folders for them. So they're all in here now, one file, menu-driven, no flags to remember.
+i was bored, decided to make an ascii converter, and then decided to make all of these random tools, enjoy them!
 
 ```
       ┌────────────────┐
@@ -55,9 +55,7 @@ That drops you into a menu — pick a number, answer whatever it asks, and it ru
 | **`dice`** | rolls dice using real notation — `2d6`, `d20`, `4d6+2`, whatever. |
 | **`sysinfo`** | a tiny fastfetch clone. OS, CPU, memory, uptime, next to a little ASCII logo. |
 
-That's the whole tool list, and it's also the whole menu — nothing hidden behind flags.
-
-## A few things worth knowing
+## A couple extra stuff
 
 - `qr` needs one extra package beyond Pillow: `qrcode[pil]`, already in `requirements.txt`.
 - `waveform` only reads `.wav`. Got something else? Convert it first — `ffmpeg -i song.mp3 song.wav` does it.
